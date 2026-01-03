@@ -52,3 +52,11 @@ by Security Operations Centers (SOC). This project shows how defenders
 can identify attack patterns using log data and transform them into
 actionable security alerts.
 
+## How to Run
+1. Clone the repository
+2. Ensure the SSH log file is placed in the `logs/` directory
+3. Run the analyzer:
+
+```bash
+python3 analyzer/ssh_log_analyzer.py
+
